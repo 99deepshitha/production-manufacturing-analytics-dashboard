@@ -11,8 +11,7 @@ Provide actionable insights to answer key business questions:
 - Which production line is most efficient?
 
 📁 Dataset Structure
-- FACT_Production
-### FACT_Production
+#### FACT_Production
 
 | Column            | Meaning                        |
 |-------------------|--------------------------------|
@@ -26,13 +25,13 @@ Provide actionable insights to answer key business questions:
 | Production_Line   | Line A / B / C                 |
 
 
--DIM_Machine
+#### DIM_Machine
 | Machine_ID | Machine_Name | Machine_Type |
 
--DIM_Operator
+#### DIM_Operator
 | Operator_ID | Operator_Name | Experience_Level |
 
--DIM_Date
+#### DIM_Date
 Auto-generated in Power BI.
 
 📊 Key KPIs
