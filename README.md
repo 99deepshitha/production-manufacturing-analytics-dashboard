@@ -11,7 +11,7 @@ Provide actionable insights to answer key business questions:
 - Which production line is most efficient?
 
 📁 Dataset Structure
-#### FACT_Production
+##### FACT_Production
 
 | Column            | Meaning                        |
 |-------------------|--------------------------------|
@@ -25,26 +25,27 @@ Provide actionable insights to answer key business questions:
 | Production_Line   | Line A / B / C                 |
 
 
-#### DIM_Machine
+##### DIM_Machine
 | Machine_ID | Machine_Name | Machine_Type |
 
-#### DIM_Operator
+##### DIM_Operator
 | Operator_ID | Operator_Name | Experience_Level |
 
-#### DIM_Date
+##### DIM_Date
 Auto-generated in Power BI.
 
-📊 Key KPIs
--Total Units Produced
--Total Downtime (Minutes)
--Downtime %
--Defect Rate
--OEE (Overall Equipment Effectiveness)
--Units per Shift
--Top 5 Machines by Output
--Worst 5 Machines by Downtime
+#### 📊Key KPIs
+- Total Units Produced
+- Total Downtime (Minutes)
+- Downtime %
+- Defect Rate
+- OEE (Overall Equipment Effectiveness)
+- Units per Shift
+- Top 5 Machines by Output
+- Worst 5 Machines by Downtime
 
 📈 Dashboard Pages
+
 📄 Page 1: Production Overview
 - KPI Cards
 - Daily production trend (Line chart)
@@ -71,7 +72,7 @@ Slicers: Date, Machine, Shift, Line
 - Power Query
 - Star Schema Modeling
 
-## 📥 How to Use This Project
+### 📥 How to Use This Project
 
 1. Download the `.pbix` file.
 2. Open it in **Power BI Desktop**.
