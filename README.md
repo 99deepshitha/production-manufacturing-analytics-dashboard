@@ -76,5 +76,5 @@ Slicers: Date, Machine, Shift, Line
 4.Refresh model
 
 Dashboard Preview
-[Dashboard Preview](screenshots/dashboard_preview.png)
+[Dashboard Preview](Dashboard_Preview.png)
 
