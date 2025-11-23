@@ -12,16 +12,27 @@ Provide actionable insights to answer key business questions:
 
 📁 Dataset Structure
 - FACT_Production
-| Column            | Meaning                        |
-|-------------------|--------------------------------|
-| Date              | Production date                |
-| Machine_ID        | Unique machine identifier      |
-| Shift             | Morning / Evening / Night      |
-| Units_Produced    | Total units produced           |
-| Units_Defective   | Total defective units          |
-| Downtime_Minutes  | Total downtime                 |
-| Operator_ID       | Operator assigned              |
-| Production_Line   | Line A / B / C                 |
+### FACT_Production
+
+| Column | Meaning |
+
+|--------|---------|
+
+| Date | Production date |
+
+| Machine_ID | Unique machine identifier |
+
+| Shift | Morning / Evening / Night |
+
+| Units_Produced | Total units produced |
+
+| Units_Defective | Total defective units |
+
+| Downtime_Minutes | Total downtime |
+
+| Operator_ID | Operator assigned |
+
+| Production_Line | Line A / B / C |
 
 
 -DIM_Machine
@@ -65,10 +76,10 @@ Slicers: Date, Machine, Shift, Line
 
 
 🛠 Tech Stack
-1.Power BI Desktop
-2.DAX
-3.Power Query
-4.Star Schema Modeling
+- Power BI Desktop
+- DAX
+- Power Query
+- Star Schema Modeling
 
 📥 How to Use This Project
 1.Download the .pbix file
@@ -77,6 +88,9 @@ Slicers: Date, Machine, Shift, Line
 4.Refresh model
 
 Dashboard Preview
-[Dashboard Preview](Page%201_Production_Overview.png)
+[Production Overview](dashboard-production-overview.png)
+[Machine Performance](dashboard-machine-performance.png)
+[Operator Performance](dashboard-operator-performance.png)
+
 
 
