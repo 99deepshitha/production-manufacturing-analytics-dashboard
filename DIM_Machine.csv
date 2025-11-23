@@ -1,0 +1,11 @@
+Machine_ID,Machine_Name,Machine_Type
+M1,Machine_1,Drill
+M2,Machine_2,Press
+M3,Machine_3,CNC
+M4,Machine_4,Drill
+M5,Machine_5,Drill
+M6,Machine_6,Press
+M7,Machine_7,CNC
+M8,Machine_8,CNC
+M9,Machine_9,Drill
+M10,Machine_10,Lathe
