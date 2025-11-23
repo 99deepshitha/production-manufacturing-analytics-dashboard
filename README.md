@@ -1,9 +1,9 @@
 🏭 Production / Manufacturing Analytics Dashboard — Power BI Project
 
 This project is an end-to-end Manufacturing Analytics Dashboard designed to monitor production output, downtime, machine performance, quality, and operator efficiency.
-It is built using Power BI, DAX, Power Query, and Python (optional).
+It is built using Power BI, DAX, Power Query.
 
-Project Objective
+#### Project Objective
 Provide actionable insights to answer key business questions:
 - Which machines cause the most downtime?
 - Which operators produce the highest output?
