@@ -12,16 +12,17 @@ Provide actionable insights to answer key business questions:
 
 📁 Dataset Structure
 - FACT_Production
-| Column           | Meaning                   |
-| ---------------- | ------------------------- |
-| Date             | Production date           |
-| Machine_ID       | Unique machine identifier |
-| Shift            | Morning / Evening / Night |
-| Units_Produced   | Total units produced      |
-| Units_Defective  | Total defective units     |
-| Downtime_Minutes | Total downtime            |
-| Operator_ID      | Operator assigned         |
-| Production_Line  | Line A / B / C            |
+| Column            | Meaning                        |
+|-------------------|--------------------------------|
+| Date              | Production date                |
+| Machine_ID        | Unique machine identifier      |
+| Shift             | Morning / Evening / Night      |
+| Units_Produced    | Total units produced           |
+| Units_Defective   | Total defective units          |
+| Downtime_Minutes  | Total downtime                 |
+| Operator_ID       | Operator assigned              |
+| Production_Line   | Line A / B / C                 |
+
 
 -DIM_Machine
 | Machine_ID | Machine_Name | Machine_Type |
@@ -76,5 +77,6 @@ Slicers: Date, Machine, Shift, Line
 4.Refresh model
 
 Dashboard Preview
-[Dashboard Preview](Dashboard_Preview.png)
+[Dashboard Preview](Page%201_Production_Overview.png)
+
 
